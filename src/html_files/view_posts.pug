@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+</head>
+<body>
+      
+    <h1>#{username} Привет!</h1>
+    <a href="/create_post">Создать пост</a>
+    <h3>Ваши посты</h3>
+    <form method="post">
+        each post in posts
+            <h5>#{post.get("text")}</h5>
+            <button type="submit" name="id_post" value=#{post.get("Id")}>Редактировать</button>
+            </br>
+    </form>
+    
+    
+</body>
+<html>

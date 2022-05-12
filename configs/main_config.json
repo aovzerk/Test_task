@@ -1,0 +1,11 @@
+{
+    "host": "127.0.0.1",
+    "port": "81",
+    "db": {
+        "host": "127.0.0.1",
+        "user": "mysql",
+        "password": "mysql",
+        "db_name": "test_db",
+        "dialect": "mysql"
+    }
+}
